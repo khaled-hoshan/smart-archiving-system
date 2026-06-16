@@ -1,0 +1,2 @@
+python3-opencv python3-pip -y
+requests pyserial

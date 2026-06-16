@@ -1,0 +1,6 @@
+1- plug the arduino and the pi
+2- open terminal and run:
+ssh pi@192.168.113.250
+	password: raspberry
+cd ./capture_station
+./start_capture.sh
