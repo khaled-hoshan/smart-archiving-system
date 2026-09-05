@@ -1,10 +1,13 @@
-1- plug the arduino and the pi
-2- open terminal and run:
-ssh pi@192.168.113.250
-cd ./capture_station
+1. Connect the Arduino and Raspberry Pi.
 
-3- set the laptop IP:
+2. Connect to the Raspberry Pi using SSH:
+ssh pi@YOUR_PI_IP
+
+3. Navigate to the project directory:
+cd ~/capture_station
+
+4. Set the IP address of the computer running the Flask application:
 export LAPTOP_IP="YOUR_LAPTOP_IP"
 
-4- start the capture station:
+5. Start the capture station:
 ./start_capture.sh
