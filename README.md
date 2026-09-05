@@ -332,8 +332,6 @@ The web interface can be accessed from another device using the Flask host's LAN
 http://YOUR_LAPTOP_IP:5000
 ```
 
-For the complete Raspberry Pi setup sequence, see `how_to_run`.
-
 ## Data Flow
 
 A complete capture cycle works as follows:
