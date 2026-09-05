@@ -1,3 +1,4 @@
+import os
 import serial
 import cv2
 import requests
@@ -5,7 +6,7 @@ import time
 
 # --- CONFIG ---
 SERIAL_PORT = "/dev/rfcomm0"
-LAPTOP_IP = "192.168.1.XX"  # <--- MUST MATCH YOUR LAPTOP IP
+LAPTOP_IP = os.environ["LAPTOP_IP"]
 URL = f"http://{LAPTOP_IP}:5000/upload"
 
 try:

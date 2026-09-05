@@ -21,7 +21,7 @@ app = Flask(__name__)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 UPLOAD_FOLDER = os.path.join(BASE_DIR, "captures")
 PDF_FOLDER = os.path.join(BASE_DIR, "pdfs")
-ADMIN_PASSWORD = "123"
+ADMIN_PASSWORD = os.environ["ADMIN_PASSWORD"]
 
 for folder in [UPLOAD_FOLDER, PDF_FOLDER]:
     if not os.path.exists(folder):
