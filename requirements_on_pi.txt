@@ -1,0 +1,6 @@
+# System packages:
+# sudo apt install -y python3-opencv python3-pip
+
+# Python packages:
+requests
+pyserial
