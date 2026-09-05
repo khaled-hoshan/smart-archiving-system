@@ -52,7 +52,7 @@ def process_and_create_pdf(image_path):
     cv2.imwrite(cleaned_path, shadow_free)
 
     # 3. OCR
-    results = reader.readtext(image_path)
+    results = reader.readtext(cleaned_path)
     extracted_text = "\n".join([text for _, text, conf in results if float(conf) > 0.3])
 
     # 4. Create PDF
