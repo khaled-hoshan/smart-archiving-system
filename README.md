@@ -390,7 +390,3 @@ The project demonstrates an end-to-end workflow where physical input is transfor
 This project was developed as an integrated hardware/software system rather than as a production document-management platform.
 
 The implementation prioritizes demonstrating the complete capture-to-archive workflow, including communication between the Arduino, Raspberry Pi, and Python backend.
-
-## License
-
-No license has been specified for this repository.
