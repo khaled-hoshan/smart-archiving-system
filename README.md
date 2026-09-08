@@ -54,6 +54,14 @@ The system separates the capture hardware from the document-processing backend.
 
 The Arduino and Raspberry Pi handle the physical capture workflow, while the Flask application performs image processing, OCR, PDF generation, and archive management.
 
+## Demo
+
+A short preview of the system's capture and PDF generation workflow is shown below. The full demonstration video covers the complete process from whiteboard capture through processing and PDF generation.
+
+![Smart Whiteboard Demo](demo/smart-archiving-demo.gif)
+
+[Full demonstration video (MP4)](demo/smart-archiving-demo.mp4)
+
 ## System Components
 
 ### Arduino
